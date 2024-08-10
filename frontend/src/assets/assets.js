@@ -3,7 +3,7 @@ import logo from './logo.png'
 import logo1 from './logo1.png'
 import logobg from './logobg.png'
 import header_img from './header_img.png'
-import search_icon from './search_icon.png'
+// import search_icon from './search_icon.png'
 import menu_1 from './menu_1.png'
 import menu_2 from './menu_2.png'
 import menu_3 from './menu_3.png'
@@ -68,7 +68,7 @@ export const assets = {
     logobg,
     basket_icon,
     header_img,
-    search_icon,
+    // search_icon,
     rating_starts,
     add_icon_green,
     add_icon_white,
