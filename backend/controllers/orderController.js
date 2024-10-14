@@ -49,7 +49,8 @@ const placeOrder = async (req,res)=>{
         res.json({success:true,session_url:session.url})
     } catch (error) {
         console.log(error);
-        res.json({success:false,message:"Error"})
+        res.redirect(`${frontend_url}`);
+        // res.json({success:false,message:"Error"})
         
     }
 }
