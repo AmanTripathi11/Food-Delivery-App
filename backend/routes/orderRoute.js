@@ -7,7 +7,7 @@ const orderRouter = express.Router();
 
 
 orderRouter.post('/place', auth,placeOrder);
-orderRouter.post('/verify', verifyOrder);
+orderRouter.post('/verify',auth, verifyOrder);
 orderRouter.post('/userorders', auth,userOrder);
 orderRouter.get('/list', listOrders);
 orderRouter.post('/status', updateStatus);
